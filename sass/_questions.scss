@@ -1,0 +1,91 @@
+.questions {
+    padding: 61px 0 50px 0;
+    &__visible {
+        max-width: 914px;
+        min-height: 65px;                
+        background: #F9F9F9;
+        border-radius: 13px 13px 13px 13px;
+        margin: 0 auto;        
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    &__header {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 24px;        
+        text-align: center;
+        color: #000000;
+        position: relative;
+        padding: 21px 16px;
+        font-weight: 500;
+        .imgArrow {            
+            margin-right: 5px;
+            transition-duration: .4s;
+            
+                    
+            &_active {
+                transition-duration: .4s;
+                transform: rotate(90deg);                     
+            }
+                
+        }
+    }
+    &__invisibly {
+        max-width: 914px;   
+        padding: 35px 0;
+        background: #F9F9F9;
+        border-radius: 0px 0px 13px 13px;    
+        margin: 0 auto;                        
+        
+    }
+    &__subheader {
+        text-align: center;
+        margin-top: 20px;
+        width: 70%;
+        margin: 0 auto;
+        font-family: Exo 2;        
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;        
+        color: #666666;
+    }
+    &__item {
+        margin-top: 24px;
+    }
+    &__wrapper {
+        padding: 46px 74px 39px 74px;
+        max-width: 720px;
+        min-height: 374px;
+        margin: 0 auto;
+        margin-top: 48px;
+        background: #FFFFFF;
+        border-radius: 13px;        
+        box-shadow: 0 0 10px rgba(121, 120, 120, 0.5);
+
+        form {
+            margin-top: 46px;
+            input {
+                font-size: 20px;
+                line-height: 24px;
+                border: 1px solid #C2C2C2;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                font-weight: 600;       
+            }
+        }
+        .questionsInput {
+            margin-top: 59px;
+        }
+    }
+    &__header2 {
+        font-family: Exo 2;            
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 31px;            
+        color: #000000;        
+        text-align: center;        
+    }
+}

@@ -1,0 +1,23 @@
+@media screen and ( max-width: 	500px) {
+    .teacherReviews {
+        padding: 23.5px 0;
+        .teacherReviews-slick {
+            &__wrapperWidth {
+                max-width: 343px;          
+                padding: 26px 33px 31px 33px;
+            }
+        }
+    } 
+}
+
+@media screen and ( max-width: 	380px) {
+    .teacherReviews {
+        padding: 23.5px 0;
+        .teacherReviews-slick {
+            &__wrapperWidth {
+                max-width: 290px;          
+                padding: 26px 30px 31px 30px;
+            }
+        }
+    } 
+}

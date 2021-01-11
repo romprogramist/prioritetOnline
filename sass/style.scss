@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+// * {
+
+
+.containerMy {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.header1 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;    
+    text-align: center;
+    color: #000000; 
+    &_slider {        
+        font-weight: 300;
+        font-size: 19px !important;
+        line-height: 23px;        
+        color: #727272;
+        padding: 39px 0 28px 0;        
+    }
+}
+li {
+    list-style-type: none;
+}
+
+
+@media screen and ( max-width: 	500px) {
+    .header1 {
+        font-size: 30px;
+    }
+}
+
+
+@import '../sass/header';  
+@import '../sass/button';  
+@import '../sass/main';
+@import '../sass/forWhom'; 
+@import '../sass/slider';   
+@import '../sass/whyOnlineIsBetter'; 
+@import '../sass/studyOf';
+@import '../sass/media/mainM';
+@import '../sass/media/studyOfM'; 
+@import '../sass/media/headerM';
+@import '../sass/media/forWhomM';
+@import '../sass/media/sliderM';
+@import '../sass/whyOnlineIsBetter';
+@import '../sass/teacherReviews';
+@import '../sass/price';
+@import '../sass/questions';
+@import '../sass/media/questionsM';
+@import '../sass/footer';
+@import '../sass/media/footerM';
+@import '../sass/modal';
+@import '../sass/media/modallM';
+@import '../sass/media/teacherReviewsM'

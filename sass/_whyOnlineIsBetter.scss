@@ -1,0 +1,30 @@
+.whyOnlineIsBetter {
+    padding: 78px 0 87px 0;
+    &__wrapper {
+        margin-top: 50px;        
+    }
+    &__cercle {
+        width: 107px;
+        height: 107px;
+        border-radius: 50%;                        
+        background: #FFD014;
+        filter: drop-shadow(0px 0px 13px rgba(0, 0, 0, 0.15));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &__header {
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        margin-top: 19px;
+    }
+    &__subheader {
+        font-size: 17px;
+        line-height: 20px;                
+        color: #000000;
+        margin-top: 8px;
+        font-weight: 300;
+    }
+}

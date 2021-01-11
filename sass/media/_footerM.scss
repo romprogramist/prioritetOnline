@@ -1,0 +1,21 @@
+@media screen and ( max-width: 	991px) {
+    .footer {
+        padding: 25px 0 38px 0;
+        &__wrapper {
+            display: block;
+        }
+        &__a {
+            margin-top: 13px;
+            &::before {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and ( max-width: 	576px) {
+    .footer {        
+        &__wrapper {
+            width: 80%;
+        }        
+    }
+}

@@ -1,0 +1,66 @@
+.button {
+    font-weight: 600;
+    display: flex;
+    background: #FFD014; 
+    border-radius: 28px;    
+    padding: 0 19px 0 10px;
+    height: 37.1px;    
+    display: flex;
+    align-items: center;    
+    font-size: 10px;
+    line-height: 13px;
+    border: none;
+    img {
+        margin-right: 1rem;
+    }
+    a {
+        margin: 0 5px;
+        color: #545454;
+        text-decoration: none;
+    }
+    &_main {
+        background: #48B51E;
+        font-size: 21.9803px;
+        padding: 0 30px;
+        height: 60.85px;
+        margin-top: 25px;
+        color: #fff;
+    }
+    &_whyOnlineIsBetter {
+        margin: 0 auto; 
+        background: #48B51E;
+        border-radius: 28px;
+        margin-top: 54px;
+        font-family: Exo 2;        
+        font-weight: bold;
+        font-size: 21.9803px;
+        line-height: 26px;                
+        color: #FFFFFF;
+        padding: 30px 40px;
+    }
+    &_price {
+        font-weight: bold;
+        font-size: 21.9803px;
+        line-height: 26px;
+        display: flex;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 28px 35px;
+        margin: 42px auto;
+        background: rgba(218, 75, 75, 0.1);
+        border-radius: 28px;
+        &_priceGreen {
+            background: #48B51E;
+        }
+    }
+    &_questions {
+        padding: 24px 61px 26px 61px;
+        margin-top: 54px !important;
+        font-family: Exo 2;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+}

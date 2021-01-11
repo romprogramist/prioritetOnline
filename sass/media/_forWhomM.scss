@@ -1,0 +1,39 @@
+@media screen and ( max-width: 	1555px) {
+    .forWhom {
+        padding: 66px 155px 122px 155px;          
+    }
+}
+
+
+@media screen and ( max-width: 	1350px) {
+    .forWhom {
+        padding: 66px 55px 122px 55px;          
+    }
+}
+
+
+@media screen and ( max-width: 	1350px) {
+    .forWhom {
+        padding: 66px 20px 122px 20px;          
+    }
+}
+
+@media screen and ( max-width: 	1080px) {
+    .forWhom {
+        padding: 66px 0px 122px 0px;
+        .container-fluid{
+            padding-right: 0;
+        }   
+        &__flex {
+            margin-right: 20px;
+        }
+    }
+}
+
+@media screen and ( max-width: 	400px) {
+    .forWhom {        
+        &__wrapper {
+            margin-left: 25px !important;
+        }        
+    }
+}

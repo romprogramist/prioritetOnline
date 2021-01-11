@@ -1,0 +1,62 @@
+.main {
+    overflow:  hidden; 
+    height: 559px;
+    background: url('../img/bg/bgMain.jpg');   
+    padding: 139px 0 0 0 ;        
+    position: relative;
+    &__wrapper {
+        width: 470px;        
+        padding: 12px 0 17px 17px;
+        background: rgba(234, 234, 234, 0.89);
+        border-radius: 24.618px;        
+        margin-right: 330px;
+        position: absolute;
+        left: 100px;
+    } 
+    &__h2 {
+        font-family: Exo 2;
+        font-weight: normal;
+        font-style: italic;
+        font-size: 19.3427px;
+        line-height: 97.5%;
+        position: relative;        
+        margin-left: 20px;
+        &::before {
+            content: '';
+            position: absolute;
+            font-size: 20px;
+            width: 9.57px;
+            height: 120.51px;
+            top: 3%;
+            left: -5.5%;
+            background: #FFD014;            
+            
+        }
+    }
+    &__h1 {
+        font-size: 42.2022px;
+        font-family: Exo 2;
+        font-weight: 700;
+        line-height: 97.5%;  
+        margin-left: 20px;      
+        margin-top: 22px;
+    }
+    &__title {
+        // font-family: Exo 2;
+        // font-style: normal;
+        // font-weight: normal;
+        font-size: 19.3427px;
+        line-height: 23px;
+        color: #636363;
+    }
+    &__prioritet {        
+        height: 100%;        
+        position: absolute;
+        top: 0;        
+        right: -10%;
+        img {
+            height: 100%;
+        }
+        
+    }
+}

@@ -1,0 +1,33 @@
+.header {    
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 66px 10px 44px 30px;
+    .menu {
+        &__mobil {
+            display: flex;
+            justify-content: space-between;             
+            height: 100%;
+            padding-left: 0;
+            margin: 0 auto;           
+        }
+    }
+    li {
+        margin-left: 36px;        
+        height: 100%;         
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__a {
+        color: #666666;
+        text-decoration: none;
+        height: 100%;                     
+        &:hover {
+            color: #666666;
+        }
+    }
+    .hambrger {
+        display: none;
+    }
+}

@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/slick.css">
+    <!-- <link rel="stylesheet" href="/css/fonts.css"> -->
+    <link rel="stylesheet" href="/css/style.min.css">
+</head>
+<body>
+    <div class="containerMy">
+        <header class="header">
+            <div class="header__img">
+                <img src="/img/icons/logo.svg" alt="">
+            </div>
+            <nav class="menu">
+                <ul class="menu__mobil">
+                    <li class="li">
+                        <a class="header__a" href="#">
+                            Программа курса
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a class="header__a" href="#">
+                            Преподаватели
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a class="header__a" href="#prices">
+                            Цена
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a class="header__a" href="#">
+                            Расписание
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a class="header__a" href="#teacherReviews">
+                            Отзывы
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="button">
+                <img src="/img/icons/manMin.svg" alt="">
+                <a data-modal="next" href="#">Вход</a>
+                <span>
+                    /
+                </span>
+                <a data-modal="registration" href="#">Регистрация</a>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span class="header__span"></span>
+                <span></span>
+            </div>
+        </header>
+    </div>
+    <main>
+        <section class="main">
+            <div class="container">
+                <div class="main__wrapper">
+                    <h2 class="main__h2">
+                        Теоретический курс
+                    </h2>
+                    <h1 class="main__h1">
+                        Изучай ПДД дистанционно
+                    </h1>
+                    <div class="main__title mt-3">
+                        Интерактивные онлайн-занятия. 
+                        Статистика успеваемости.  Решение билетов.  Подготовка к экзамену в ГИБДД.
+                    </div>
+                    <button data-modal="registration" class="button button_main">
+                        Начать обучение
+                    </button>
+                </div>
+            </div>
+            <div class="main__prioritet">
+                <img src="/img/bg/prioritet.png" alt="">
+            </div>
+        </section>
+        <section class="forWhom">
+            <div class="container-fluid">
+                <h2 class="header1">
+                    Для кого этот курс?
+                </h2>                
+                <div class="forWhom__flex">                    
+                    <div class="forWhom__wrapper">
+                        <img src="/img/icons/forWhom1.png" alt="">
+                        <div class="forWhom__title">
+                            Для тех, кто планирует учиться в автошколе и хочет сэкономить на обучении, изучив теорию самостоятельно
+                        </div>
+                        <div class="forWhom__circle">
+                            ✓
+                        </div>
+                    </div>
+                    <div class="forWhom__wrapper">
+                        <img src="/img/icons/forWhom2.png" alt="">
+                        <div class="forWhom__title">
+                            Для тех, кто уже поступил в автошколу, но не может или не хочет посещать теорию в учебном классе
+                        </div>
+                        <div class="forWhom__circle">
+                            ✓
+                        </div>
+                    </div>
+                    <div class="forWhom__wrapper">
+                        <img src="/img/icons/forWhom3.png" alt="">
+                        <div class="forWhom__title">
+                            Для тех, кто желает самостоятельно подготовиться к экзамену в ГИБДД
+                        </div>
+                        <div class="forWhom__circle">
+                            ✓
+                        </div>
+                    </div>
+                    <div class="forWhom__wrapper">
+                        <img src="/img/icons/forWhom4.png" alt="">
+                        <div class="forWhom__title">
+                            Для тех, кто хочет освежить знания по ПДД и быть в курсе всех актуальных изменений
+                        </div>
+                        <div class="forWhom__circle">
+                            ✓
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <section class="slider">
+            <div class="container">
+                <h2 class="header1">
+                    Что мы предлагаем?
+                </h2>
+                <div class="slider__overflow">
+                    <div class="slider__center">
+                        <ul class="slider__tabs">                    
+                            <li class="slider__tab slider__tab_active">
+                                <div>
+                                    Уникальный контент
+                                </div>
+                            </li>
+                            <li class="slider__tab ">
+                                <div>
+                                    Интерактивные опросы
+                                </div>
+                            </li>
+                            <li class="slider__tab ">
+                                <div>
+                                    Экзамен ГИБДД
+                                </div>
+                            </li>
+                            <li class="slider__tab ">
+                                <div>
+                                    Экзаменационные билеты
+                                </div>
+                            </li>
+                            <li class="slider__tab ">
+                                <div>
+                                    Статистика 
+                                </div>
+                            </li>                        
+                        </ul>
+                        <div class="slider__line"></div>
+                    </div>                    
+                </div>                 
+                <div class="header1 header1_slider">
+                    Качественные лекции с наглядными 3д иллюстрациями
+                </div>                                
+                <div class="slider1">     
+                    <div>
+                        <img class="slider1__img" src="/img/bg/WhatWillYouStud2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="slider1__img" src="/img/bg/WhatWillYouStud3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="slider1__img" src="/img/bg/WhatWillYouStud4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="slider1__img" src="/img/bg/WhatWillYouStud6.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="slider1__img" src="/img/bg/WhatWillYouStud5.jpg" alt="">
+                    </div>
+                </div>                             
+            </div>
+        </section>
+        <section class="whyOnlineIsBetter">
+            <h2 class="header1 header1_whyOnlineIsBetter">
+                Почему онлайн-обучение лучше?
+            </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="whyOnlineIsBetter__wrapper">
+                            <div class="whyOnlineIsBetter__cercle">
+                                <img src="/img/icons/WhyIsOnlineLearningBetter1.png" alt="">
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__header">
+                                ДЕШЕВЛЕ
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__subheader">
+                                Онлайн-обучение стоит в <br> несколько раз меньше, чем <br> обучение в классе
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="whyOnlineIsBetter__wrapper">
+                            <div class="whyOnlineIsBetter__cercle">
+                                <img src="/img/icons/WhyIsOnlineLearningBetter2.png" alt="">
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__header">
+                                ЭКОНОМНЕЕ
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__subheader">
+                                Экономьте время и деньги на <br> дорогу
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="whyOnlineIsBetter__wrapper">
+                            <div class="whyOnlineIsBetter__cercle">
+                                <img src="/img/icons/WhyIsOnlineLearningBetter3.png" alt="">
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__header">
+                                УДОБНЕЕ
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__subheader">
+                                Занимайтесь в любом месте и в <br> любое время
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="whyOnlineIsBetter__wrapper">
+                            <div class="whyOnlineIsBetter__cercle">
+                                <img src="/img/icons/WhyIsOnlineLearningBetter4.png" alt="">
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__header">
+                                БЫСТРЕЕ
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__subheader">
+                                Выбирайте комфортный Вам <br> темп обучения
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="whyOnlineIsBetter__wrapper">
+                            <div class="whyOnlineIsBetter__cercle">
+                                <img src="/img/icons/WhyIsOnlineLearningBetter5.png" alt="">
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__header">
+                                ИНТЕРАКТИВНЕЕ
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__subheader">
+                                Закрепление знаний сразу после <br> разбора темы
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="whyOnlineIsBetter__wrapper">
+                            <div class="whyOnlineIsBetter__cercle">
+                                <img src="/img/icons/WhyIsOnlineLearningBetter6.png" alt="">
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__header">
+                                УДОБНЕЕ
+                            </div>
+                            <div class="text-center whyOnlineIsBetter__subheader">
+                                Онлайн-обучение стоит в <br> несколько раз меньше, чем <br> обучение в классе
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button data-modal="registration" class="button button_whyOnlineIsBetter">
+                            Начать обучение
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="studyOf">
+            <h2 class="header1">
+                Что Вы будете изучать?
+            </h2>
+            <div class="studyOf__globalScroll">
+                <div class="studyOf__flex">
+                    <ul class="studyOf__tabs p-0">
+                        <li class="studyOf__tab studyOf__tab_active">
+                            Правила дорожного движения
+                        </li>
+                        <li class="studyOf__tab">
+                            Первая помощь при ДТП
+                        </li>
+                        <li class="studyOf__tab">
+                            Психофизиологические основы <br> деятельности водителя
+                        </li>
+                        <li class="studyOf__tab">
+                            Основы управления <br> транспортными средствами
+                        </li>
+                        <li class="studyOf__tab">
+                            Ответственность за нарушение <br> в сфере дорожного движения
+                        </li>
+                        <li class="studyOf__tab">
+                            Устройство и техническое <br> обслуживание ТС
+                        </li>
+                    </ul>                    
+                    <div class="studyOf__whiteBG studyOf__whiteBG_active">
+                        <h3 class="studyOf__h3">
+                            Первая помощь при ДТП
+                        </h3>
+                        <div class="studyOf__imgBg">
+                            <img src="/img/bg/WhatWillYouStud2.jpg" alt="">
+                        </div>
+                        <div class="studyOf__wrapperRight">
+                            <div class="studyOf__imgBg studyOf__imgBg1">
+                                <img src="/img/bg/WhatWillYouStud2.jpg" alt="">
+                            </div>
+                            <div class="studyOf__headerW">
+                                Преподаватель
+                            </div>
+                            <div class="studyOf__flexMax">
+                                <div class="studyOf__flexMin">
+                                    <div class="studyOf__imgCer">
+                                        <img src="/img/icons/studyOfcercleImg.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="studyOf__headerW1">
+                                            Преподаватель
+                                        </div>
+                                        <div class="studyOf__subheaderW">
+                                            Ольга Васютина
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="studyOf__title">
+                                    Преподаватель по первой медицинской помощи
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="studyOf__whiteBG">
+                        <h3 class="studyOf__h3">
+                            Первая помощь при ДТП
+                        </h3>
+                        <div class="studyOf__imgBg">
+                            <img src="/img/bg/WhatWillYouStud3.jpg" alt="">
+                        </div>
+                        <div class="studyOf__wrapperRight">
+                            <div class="studyOf__imgBg studyOf__imgBg1">
+                                <img src="img/bg/WhatWillYouStud3.jpg" alt="">
+                            </div>
+                            <div class="studyOf__headerW">
+                                Преподаватель
+                            </div>
+                            <div class="studyOf__flexMax">
+                                <div class="studyOf__flexMin">
+                                    <div class="studyOf__imgCer">
+                                        <img src="img/icons/studyOfcercleImg.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="studyOf__headerW1">
+                                            Преподаватель
+                                        </div>
+                                        <div class="studyOf__subheaderW">
+                                            Ольга Васютина
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="studyOf__title">
+                                    Преподаватель по первой медицинской помощи
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="studyOf__whiteBG">
+                        <h3 class="studyOf__h3">
+                            Первая помощь при ДТП
+                        </h3>
+                        <div class="studyOf__imgBg">
+                            <img src="/img/bg/WhatWillYouStud4.jpg" alt="">
+                        </div>
+                        <div class="studyOf__wrapperRight">
+                            <div class="studyOf__imgBg studyOf__imgBg1">
+                                <img src="/img/bg/WhatWillYouStud4.jpg" alt="">
+                            </div>
+                            <div class="studyOf__headerW">
+                                Преподаватель
+                            </div>
+                            <div class="studyOf__flexMax">
+                                <div class="studyOf__flexMin">
+                                    <div class="studyOf__imgCer">
+                                        <img src="/img/icons/studyOfcercleImg.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="studyOf__headerW1">
+                                            Преподаватель
+                                        </div>
+                                        <div class="studyOf__subheaderW">
+                                            Ольга Васютина
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="studyOf__title">
+                                    Преподаватель по первой медицинской помощи
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="studyOf__whiteBG">
+                        <h3 class="studyOf__h3">
+                            Первая помощь при ДТП
+                        </h3>
+                        <div class="studyOf__imgBg">
+                            <img src="/img/bg/WhatWillYouStud5.jpg" alt="">
+                        </div>
+                        <div class="studyOf__wrapperRight">
+                            <div class="studyOf__imgBg studyOf__imgBg1">
+                                <img src="/img/bg/WhatWillYouStud5.jpg" alt="">
+                            </div>
+                            <div class="studyOf__headerW">
+                                Преподаватель
+                            </div>
+                            <div class="studyOf__flexMax">
+                                <div class="studyOf__flexMin">
+                                    <div class="studyOf__imgCer">
+                                        <img src="/img/icons/studyOfcercleImg.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="studyOf__headerW1">
+                                            Преподаватель
+                                        </div>
+                                        <div class="studyOf__subheaderW">
+                                            Ольга Васютина
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="studyOf__title">
+                                    Преподаватель по первой медицинской помощи
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="studyOf__whiteBG">
+                        <h3 class="studyOf__h3">
+                            Первая помощь при ДТП
+                        </h3>
+                        <div class="studyOf__imgBg">
+                            <img src="/img/bg/WhatWillYouStud6.jpg" alt="">
+                        </div>
+                        <div class="studyOf__wrapperRight">
+                            <div class="studyOf__imgBg studyOf__imgBg1">
+                                <img src="/img/bg/WhatWillYouStud6.jpg" alt="">
+                            </div>
+                            <div class="studyOf__headerW">
+                                Преподаватель
+                            </div>
+                            <div class="studyOf__flexMax">
+                                <div class="studyOf__flexMin">
+                                    <div class="studyOf__imgCer">
+                                        <img src="/img/icons/studyOfcercleImg.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="studyOf__headerW1">
+                                            Преподаватель
+                                        </div>
+                                        <div class="studyOf__subheaderW">
+                                            Ольга Васютина
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="studyOf__title">
+                                    Преподаватель по первой медицинской помощи
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="studyOf__whiteBG">
+                        <h3 class="studyOf__h3">
+                            Первая помощь при ДТП
+                        </h3>
+                        <div class="studyOf__imgBg">
+                            <img src="/img/bg/WhatWillYouStudy1.jpg" alt="">
+                        </div>
+                        <div class="studyOf__wrapperRight">
+                            <div class="studyOf__imgBg studyOf__imgBg1">
+                                <img src="/img/bg/WhatWillYouStudy1.jpg" alt="">
+                            </div>
+                            <div class="studyOf__headerW">
+                                Преподаватель
+                            </div>
+                            <div class="studyOf__flexMax">
+                                <div class="studyOf__flexMin">
+                                    <div class="studyOf__imgCer">
+                                        <img src="/img/icons/studyOfcercleImg.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="studyOf__headerW1">
+                                            Преподаватель
+                                        </div>
+                                        <div class="studyOf__subheaderW">
+                                            Ольга Васютина
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="studyOf__title">
+                                    Преподаватель по первой медицинской помощи
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="studyOf__demonstration">
+                <a href="">
+                    ПОСМОТРЕТЬ ДЕМОНСТРАЦИОННЫЙ УРОК >>
+                </a>
+            </div>                                                                                        
+        </section>
+        <section id="teacherReviews" class="teacherReviews">
+            <h2 class="header1">
+                Что Вы будете изучать?
+            </h2>
+            <div class="teacherReviews-slick ">
+                <div class="teacherReviews-slick__wrapper ">
+                    <div class="teacherReviews-slick__wrapperWidth">
+                        <div class="teacherReviews-slick__flex">
+                            <img src="/img/icons/reviews1.png" alt="">
+                            <div class="teacherReviews__name">
+                                Анна Михайлова
+                            </div>
+                        </div>
+                        <div class="teacherReviews__title">
+                            Как раз перед карантином записалась в автошколу в своем городе, но к сожалению у них не было онлайн обучения. Я уже расстроилась и хотела переводиться в другую школу, но чуть позже наткнулась на даный сайт. И моему счастью не было предела! Мало того, что я за копейки получила качественный теоретический курс, при этом в автошколе, в которую я изначально записалась, мне дали скидку 5000 рублей за то, что я прохожу обучение теории на данном сайте.≈
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="teacherReviews__navigation">
+                                Ссылки на соц. сети ученика
+                            </div>
+                            <div class="d-flex">
+                                <a href="#" class="teacherReviews__icon">
+                                    <img src="/img/icons/insta.svg" alt="insta">
+                                </a>
+                                <a href="#" class="teacherReviews__icon teacherReviews__icon_r">
+                                    <img src="/img/icons/vk.svg" alt="vk">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacherReviews-slick__wrapper">
+                    <div class="teacherReviews-slick__wrapperWidth">
+                        <div class="teacherReviews-slick__flex">
+                            <img src="/img/icons/reviews2.png" alt="">
+                            <div class="teacherReviews__name">
+                                Анна Михайлова
+                            </div>
+                        </div>
+                        <div class="teacherReviews__title">
+                            Как раз перед карантином записалась в автошколу в своем городе, но к сожалению у них не было онлайн обучения. Я уже расстроилась и хотела переводиться в другую школу, но чуть позже наткнулась на даный сайт. И моему счастью не было предела! Мало того, что я за копейки получила качественный теоретический курс, при этом в автошколе, в которую я изначально записалась, мне дали скидку 5000 рублей за то, что я прохожу обучение теории на данном сайте.≈
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="teacherReviews__navigation">
+                                Ссылки на соц. сети ученика
+                            </div>
+                            <div class="d-flex">
+                                <a href="#" class="teacherReviews__icon">
+                                    <img src="/img/icons/insta.svg" alt="insta">
+                                </a>
+                                <a href="#" class="teacherReviews__icon teacherReviews__icon_r">
+                                    <img src="/img/icons/vk.svg" alt="vk">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacherReviews-slick__wrapper">
+                    <div class="teacherReviews-slick__wrapperWidth">
+                        <div class="teacherReviews-slick__flex">
+                            <img src="/img/icons/reviews3.png" alt="">
+                            <div class="teacherReviews__name">
+                                Анна Михайлова
+                            </div>
+                        </div>
+                        <div class="teacherReviews__title">
+                            Как раз перед карантином записалась в автошколу в своем городе, но к сожалению у них не было онлайн обучения. Я уже расстроилась и хотела переводиться в другую школу, но чуть позже наткнулась на даный сайт. И моему счастью не было предела! Мало того, что я за копейки получила качественный теоретический курс, при этом в автошколе, в которую я изначально записалась, мне дали скидку 5000 рублей за то, что я прохожу обучение теории на данном сайте.≈
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="teacherReviews__navigation">
+                                Ссылки на соц. сети ученика
+                            </div>
+                            <div class="d-flex">
+                                <a href="#" class="teacherReviews__icon">
+                                    <img src="/img/icons/insta.svg" alt="insta">
+                                </a>
+                                <a href="#" class="teacherReviews__icon teacherReviews__icon_r">
+                                    <img src="/img/icons/vk.svg" alt="vk">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacherReviews-slick__wrapper">
+                    <div class="teacherReviews-slick__wrapperWidth">
+                        <div class="teacherReviews-slick__flex">
+                            <img src="/img/icons/reviews4.png" alt="">
+                            <div>
+                                <div class="teacherReviews__name">
+                                    Анна Михайлова
+                                </div>
+                                <div class="teacherReviews__citi">
+                                    г.Ростов-на-Дону
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teacherReviews__title">
+                            Как раз перед карантином записалась в автошколу в своем городе, но к сожалению у них не было онлайн обучения. Я уже расстроилась и хотела переводиться в другую школу, но чуть позже наткнулась на даный сайт. И моему счастью не было предела! Мало того, что я за копейки получила качественный теоретический курс, при этом в автошколе, в которую я изначально записалась, мне дали скидку 5000 рублей за то, что я прохожу обучение теории на данном сайте.≈
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="teacherReviews__navigation">
+                                Ссылки на соц. сети ученика
+                            </div>
+                            <div class="d-flex">
+                                <a href="#" class="teacherReviews__icon">
+                                    <img src="/img/icons/insta.svg" alt="insta">
+                                </a>
+                                <a href="#" class="teacherReviews__icon teacherReviews__icon_r">
+                                    <img src="/img/icons/vk.svg" alt="vk">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="teacherReviews-slick__wrapper">
+                    <div class="teacherReviews-slick__wrapperWidth">
+                        <div class="teacherReviews-slick__flex">
+                            <img src="/img/icons/reviews4.png" alt="">
+                            <div class="teacherReviews__name">
+                                Анна Михайлова
+                            </div>
+                        </div>
+                        <div class="teacherReviews__title">
+                            Как раз перед карантином записалась в автошколу в своем городе, но к сожалению у них не было онлайн обучения. Я уже расстроилась и хотела переводиться в другую школу, но чуть позже наткнулась на даный сайт. И моему счастью не было предела! Мало того, что я за копейки получила качественный теоретический курс, при этом в автошколе, в которую я изначально записалась, мне дали скидку 5000 рублей за то, что я прохожу обучение теории на данном сайте.≈
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <div class="teacherReviews__navigation">
+                                Ссылки на соц. сети ученика
+                            </div>
+                            <div class="d-flex">
+                                <a href="#" class="teacherReviews__icon">
+                                    <img src="/img/icons/insta.svg" alt="insta">
+                                </a>
+                                <a href="#" class="teacherReviews__icon teacherReviews__icon_r">
+                                    <img src="/img/icons/vk.svg" alt="vk">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <section id="prices" class="price">
+            <div class="container">
+                <h2 class="header1">
+                    Сколько стоит полный курс?
+                </h2>
+                <div class="row">
+                    <div class="col-lg-6 ">                        
+                        <div class="m-auto price__wrapper">
+                            <img src="img/icons/price1.png" alt="">
+                            <div class="price__title">
+                                <div class="price__header">
+                                    Теория в классе
+                                </div>
+                                <div class="price__subheader">
+                                    от 5 000 до 10 000 руб.
+                                </div>
+                            </div>
+                        </div>
+                        <button data-modal="registration" class="button button_price">
+                            Начать обучение
+                        </button>
+                    </div>
+                    <div class="col-lg-6">                        
+                        <div class="m-auto price__wrapper1">
+                            <img src="img/icons/price2.png" alt="">
+                            <div class="price__title">
+                                <div class="price__header">
+                                    Онлайн-обучение у нас
+                                </div>
+                                <div class="price__subheader">
+                                    490 руб.
+                                </div>
+                            </div>
+                        </div>
+                        <button data-modal="registration" class="button button_price button_price_priceGreen">
+                            Начать обучение
+                        </button>               
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="questions">
+            <div class="container">
+                <h2 class="header1">
+                    Вопросы и ответы
+                </h2>
+                <div class="questions__global">
+                    <div class="questions__item">
+                        <div class="questions__visible">
+                            <div class="questions__header">
+                                <img class="imgArrow" src="/img/icons/questionsArrow.svg" alt="">
+                                А где мне можно пройти уроки по вождению?
+                            </div>
+                        </div>
+                        <div class="questions__invisibly">
+                            <div class="questions__subheader ">
+                                Здесь я напишу ответ на тот самый вопрос, который записан в данном блоке. Не уверен, что он будет таким же длинным как этот, но все же
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="questions__item">
+                        <div class="questions__visible">                            
+                            <div class="questions__header">
+                                <img class="imgArrow" src="/img/icons/questionsArrow.svg" alt="">
+                                Как я могу получить скидку если я уже учусь в автошколе?
+                            </div>
+                        </div>
+                        <div class="questions__invisibly">
+                            <div class="questions__subheader">
+                                Здесь я напишу ответ на тот самый вопрос, который записан в данном блоке. Не уверен, что он будет таким же длинным как этот, но все же
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="questions__item">
+                        <div class="questions__visible">                            
+                            <div class="questions__header">
+                                <img class="imgArrow " src="/img/icons/questionsArrow.svg" alt="">
+                                Что если мне не понравятся уроки? Смогу ли я вернуть деньги за обучение?
+                            </div>
+                        </div>
+                        <div class="questions__invisibly">
+                            <div class="questions__subheader">
+                                Здесь я напишу ответ на тот самый вопрос, который записан в данном блоке. Не уверен, что он будет таким же длинным как этот, но все же
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="questions__item">
+                        <div class="questions__visible ">                  
+                            <div class="questions__header">
+                                <img class="imgArrow " src="/img/icons/questionsArrow.svg" alt="">
+                                Еще один глупый вопрос, чтобы задать?
+                            </div>
+                        </div>
+                        <div class="questions__invisibly">
+                            <div class="questions__subheader">
+                                Здесь я напишу ответ на тот самый вопрос, который записан в данном блоке. Не уверен, что он будет таким же длинным как этот, но все же
+                            </div>
+                        </div> 
+                    </div>                 
+                </div>  
+                <div id="questions" class="questions__wrapper">
+                    <h2 class="questions__header2">
+                        Остались вопросы?
+                    </h2>                    
+                    <form action="">
+                        <div class="row">
+                            <label class="col-12 col-sm-5 p-0">
+                                <input class="w-100" placeholder="Ваше имя" type="text" name="name">
+                            </label>
+                            <label class="col-12 col-sm-5 p-0 offset-sm-2">
+                                <input class="w-100" placeholder="Ваш телефон" type="text" name="phone">
+                            </label>
+                            <label class="col-12 p-0" for="">
+                                <input class="questionsInput w-100" required placeholder="Ваш вопрос" type="text" name="question">
+                            </label>
+                            <div class="col-12">
+                                <button data-modal="thank" class="m-auto button button_questions"> 
+                                    Отправить
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>  
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__start">
+                    ЧУ ДПО Автошкола Приоритет 2004г - 2020г
+                </div>
+                <div class="footer__a">
+                    <a href="#">
+                        Условия конфиденциальности
+                    </a>
+                </div>
+                <div class="footer__a">
+                    <a href="#">
+                        Пользовательское соглашение
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <div class="overlay">
+        <div class="modall" id="next">
+            <div class="modall__close">
+                &times;
+            </div>
+            <img src="/img/icons/logo.svg" alt="">
+            <hr>
+            <h2 class="modall__header">
+                Вход
+            </h2>
+            <form class="feed-form" action="">
+                <input class="col-12" placeholder="Ваш телефон" type="text" name="phone">
+                <input class="col-12" placeholder="Пароль" type="text" name="password">          
+                <div class=" d-flex align-items-center ">
+                    <input class="checkbox ml-2"  type="checkbox" id="check1">
+                    <span class="mt-3 nextCheckbox">Запомнить меня</span>
+                    <span class="forgot mt-3">
+                        <a data-modal="restorePassword">
+                            Забыл пароль ?
+                        </a>
+                    </span>
+                </div>
+                <div class="col-12">
+                    <button class="m-auto button button_questions"> 
+                        Войти
+                    </button>
+                </div>
+                <div class="row mt-4 d-flex align-items-center">
+                    <hr class="col-3 col-sm-4 p-0 mt-3">
+                    <span class="text-center col-6 col-sm-4 p-0 m-0 registrationSpanLinCenter">Новый пользователь?</span>
+                    <hr class="col-3 col-sm-4 p-0 mt-3">
+                    <div class="col-12 text-center mt-3">
+                        <a data-modal="registration" class="modall__registration">
+                            Регистрация »
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modall" id="registration">
+            <div class="modall__close">
+                &times;
+            </div>
+            <img src="/img/icons/logo.svg" alt="">
+            <hr>
+            <h2 class="modall__header">
+                Регистрация
+            </h2>
+            <form action="">
+                <select class="modall__selectForm col-12 mt-1 pr-2 pl-2" id="" name="city">
+                    <option selected>Выбрите город обучения</option>
+                    <option value="1">Sochi</option>
+                    <option value="2">Moscow</option>
+                    <option value="3">New York</option>
+                </select>
+                <input class="col-12" required placeholder="Ваше имя" type="text" name="name">
+                <input class="col-12" required placeholder="Номер телефона" type="text" name="phone"> 
+                <input class="col-12" required placeholder="Пароль" type="text" name="password">
+                <input class="col-12" required placeholder="Введите пародь повторно" type="text" name="passwordRepeat">
+                <div class="d-flex align-items-center">
+                    <input class="checkbox col-2"  type="checkbox" id="check1">                    
+                    <span class="IAcceptTheCondition col-10 mt-3">
+                        Я принимаю условия 
+                        <a href="">
+                            пользовательского соглашения
+                        </a> 
+                        и согласен(а) с 
+                        <a href="">
+                            политикой конфидениальности
+                        </a>
+                    </span> 
+                </div>
+                <div class="col-12">
+                    <button class="m-auto button button_questions"> 
+                        Создать аккаунт
+                    </button>
+                </div>
+                <div class="row mt-4 d-flex align-items-center">
+                    <hr class="col-2 col-sm-3 mt-3">
+                    <span class="registrationSpanLinCenter text-center col-8 col-sm-6 p-0 m-0">Уже зарегистрированы?</span>
+                    <hr class="col-2 col-sm-3  mt-3">
+                    <div class="col-12 text-center mt-3">
+                        <a data-modal="next" class="modall__registration">
+                            Вход »
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modall" id="thank">
+            <div class="modall__close">
+                &times;
+            </div>
+            <img src="/img/icons/logo.svg" alt="">
+            <hr>
+            <div class="text-center modall__title">
+                Спасибо за интерес к нашему курсу! Для ответа на Ваш вопрос с Вами свяжется наш специалист.
+            </div>
+        </div>
+        <div class="modall" id="restorePassword">
+            <div class="modall__close">
+                &times;
+            </div>
+            <img src="/img/icons/logo.svg" alt="">
+            <hr>
+            <h2 class="modall__header">
+                Восстановление пароля
+            </h2>
+            <div class="text-center modall__title">
+                На ваш номер телефона отправлен код. Для подтверждения сброса пароля, пожалуйста, введите его.
+            </div>
+            <form action="">
+                <input class="col-12" required placeholder="Введите код" type="text" name="сode">
+                <div class="col-12">
+                    <div class="modall__flexNav">                        
+                        <a href="">Не пришел пароль?</a>                                                
+                        <a href="">Отправить пароль еще раз</a>                        
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="m-auto button button_questions"> 
+                        Отправить
+                    </button>
+                </div>
+                <div class="row mt-4 d-flex align-items-center">
+                    <hr class="col-3 p-0 mt-3">
+                    <span class="text-center col-6 m-0">Новый пользователь?</span>
+                    <hr class="col-3 p-0 mt-3">
+                    <div class="col-12 text-center mt-3">
+                        <a class="modall__registration">
+                            Регистрация »
+                        </a>
+                    </div>
+                </div>
+            </form>                        
+        </div>
+        <div class="modall" id="NewPassword">
+            <div class="modall__close">
+                &times;
+            </div>
+            <img src="/img/icons/logo.svg" alt="">
+            <hr>
+            <h2 class="modall__header">
+                Новый пароль
+            </h2>
+            <form action="">
+                <input class="col-12" required placeholder="Введите новый пароль" type="text" name="NewPassword">
+                <input class="col-12" required placeholder="Введите новый пароль повторно" type="text" name="NewPassworRepeat">
+                <div class="col-12">
+                    <button class="m-auto button button_questions"> 
+                        Отправить
+                    </button>
+                </div>
+                <div class="row mt-4 d-flex align-items-center">
+                    <hr class="col-3 p-0 mt-3">
+                    <span class="text-center col-6 m-0">Новый пользователь?</span>
+                    <hr class="col-3 p-0 mt-3">
+                    <div class="col-12 text-center mt-3">
+                        <a href="modall__registration">
+                            Регистрация »
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div> 
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/questions.js"></script>    
+    <script src="/js/validate.js"></script>
+</body>
+</html>
