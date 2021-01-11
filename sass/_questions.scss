@@ -20,11 +20,9 @@
         position: relative;
         padding: 21px 16px;
         font-weight: 500;
-        .imgArrow {            
+        .imgArrow {
             margin-right: 5px;
-            transition-duration: .4s;
-            
-                    
+            transition-duration: .4s;   
             &_active {
                 transition-duration: .4s;
                 transform: rotate(90deg);                     

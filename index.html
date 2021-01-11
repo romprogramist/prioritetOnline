@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -789,7 +789,7 @@
                     </form>
                 </div>
             </div>
-        </section>  
+        </section>
     </main>
     <footer class="footer">
         <div class="container">
@@ -823,21 +823,28 @@
             <form class="feed-form" action="">
                 <input class="col-12" placeholder="Ваш телефон" type="text" name="phone">
                 <input class="col-12" placeholder="Пароль" type="text" name="password">          
-                <div class=" d-flex align-items-center ">
-                    <input class="checkbox ml-2"  type="checkbox" id="check1">
-                    <span class="mt-3 nextCheckbox">Запомнить меня</span>
-                    <span class="forgot mt-3">
+                <div class=" d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center mt-3">
+                        <input type="checkbox" class="col-2 custom-checkbox" id="happy1" name="happy" value="yes">
+                        <label for="happy1">
+                            <span class="d-none">
+                                .
+                            </span>
+                        </label>
                         <a data-modal="restorePassword">
                             Забыл пароль ?
                         </a>
-                    </span>
+                    </div>
+
+                    <div class="mt-3 nextCheckbox">Запомнить меня</div>
+                   
                 </div>
                 <div class="col-12">
                     <button class="m-auto button button_questions"> 
                         Войти
                     </button>
                 </div>
-                <div class="row mt-4 d-flex align-items-center">
+                <div class="row mt-4 d-flex align-items-center ">
                     <hr class="col-3 col-sm-4 p-0 mt-3">
                     <span class="text-center col-6 col-sm-4 p-0 m-0 registrationSpanLinCenter">Новый пользователь?</span>
                     <hr class="col-3 col-sm-4 p-0 mt-3">
@@ -869,18 +876,19 @@
                 <input class="col-12" required placeholder="Номер телефона" type="text" name="phone"> 
                 <input class="col-12" required placeholder="Пароль" type="text" name="password">
                 <input class="col-12" required placeholder="Введите пародь повторно" type="text" name="passwordRepeat">
-                <div class="d-flex align-items-center">
-                    <input class="checkbox col-2"  type="checkbox" id="check1">                    
-                    <span class="IAcceptTheCondition col-10 mt-3">
-                        Я принимаю условия 
-                        <a href="">
-                            пользовательского соглашения
-                        </a> 
-                        и согласен(а) с 
-                        <a href="">
-                            политикой конфидениальности
-                        </a>
-                    </span> 
+                <div class="d-flex align-items-center justify-content-between mt-2">
+                    <input type="checkbox" class="col-2 custom-checkbox" id="happy" name="happy" value="yes">
+                    <label class="" for="happy"><span class="d-none SpanNone">.</span></label>
+                    <strong class="text-secondary col-10">
+                        <strong class="modall__strong">
+                            Я принимаю условия
+                        </strong>   
+                        <a class="text-secondary" href=""> <ins>пользовательского соглашения</ins> </a>
+                        <strong class="text-secondary">
+                            и согласен(а)
+                        </strong>
+                        <a class="text-secondary" href=""> <ins>с политикой конфидениальности</ins> </a>
+                    </strong>
                 </div>
                 <div class="col-12">
                     <button class="m-auto button button_questions"> 

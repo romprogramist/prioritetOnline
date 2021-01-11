@@ -7,9 +7,11 @@ $(document).ready(function() {
     });
     $(".questions__global .questions__invisibly ").hide();   
 
-    $( ".questions__visible" ).on( "click", ".imgArrow" , function() {
+    $( ".questions__item" ).on( "click", ".questions__visible" , function() {
         $( this ).toggleClass( "imgArrow_active" );
       });
+
+      
       $('[data-modal=registration]').on('click', function() {
         $('.overlay, #registration').fadeIn()
      });
