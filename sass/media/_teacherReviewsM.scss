@@ -1,3 +1,27 @@
+
+@media screen and ( max-width: 	757px) {
+    .teacherReviews {
+        .teacherReviews-slick {
+            .slick-prev {
+                left: 8px;
+                top: 40%;
+                img {
+                    width: 20px;
+                }
+            }
+            .slick-next {
+                right: 8px;
+                top: 40%;
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    } 
+}
+
+
+
 @media screen and ( max-width: 	500px) {
     .teacherReviews {
         padding: 23.5px 0;

@@ -1,3 +1,14 @@
+@media screen and ( max-width: 	1400px) {
+    .slider {
+        &__tabs {
+            margin-left: 30px;
+        } 
+        &__line {
+            margin: -33px  13px 0 auto !important;                  
+        }
+    }
+}
+
 @media screen and ( max-width: 	1101px) {
     .slider {
         .slider1 {
@@ -93,23 +104,17 @@
     .slider {
         .slider1 {
             .slick-prev {
-                left: -17px;
+                left: -12px;
                 top: 32%;
-                img {
-                    width: 20px;
-                }
             }
             .slick-next {
-                right: -17px;
+                right: -12px;
                 top: 32%;
-                img {
-                    width: 20px;
-                }
             }
             div {
                 img {
                     margin: 0 auto;
-                    max-width: 271px;
+                    max-width: 241px;
                 }
             }
         }

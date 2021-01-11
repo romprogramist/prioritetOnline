@@ -18,14 +18,16 @@
         width: 264px;
         margin: 0 auto;
     }
-    
     &__tab {
+        width: 260px;
         font-weight: 300;
         margin-top: 28px;
         text-align: right;
         position: relative;
         cursor: pointer;
         &_active {
+            font-weight: 600;
+            color: #000000;
             &::after {
                 content: '';                
                 position: absolute;
