@@ -9,6 +9,9 @@
         display: flex;
         align-items: center;
         cursor: pointer;
+        &_active {
+            border-radius: 13px 13px 0px 0px;
+        }
     }
     &__header {
         text-align: center;
@@ -22,9 +25,9 @@
         font-weight: 500;
         .imgArrow {
             margin-right: 5px;
-            transition-duration: .4s;   
+            transition-duration: .2s;   
             &_active {
-                transition-duration: .4s;
+                transition-duration: .2s;
                 transform: rotate(90deg);                     
             }
                 

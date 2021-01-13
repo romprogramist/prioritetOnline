@@ -33,13 +33,17 @@
                 flex-direction: column;                
                 justify-content: center;
                 align-items: center;                                
-                width: 100%;                                            
-                top: 0;                          
+                width: 100%;                                
+                top: 0;
+                transition-duration: 2s;                
                 &_active1 {
+                    transition-duration: 2s;
                     display: block;                    
                     position: fixed;
-                    left: 0%;                
-                    z-index: 2;                    
+                    left: 0%;
+                    top: 0;          
+                    z-index: 2;
+                    
                 }
             }
         }   

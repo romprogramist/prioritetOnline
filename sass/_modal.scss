@@ -6,19 +6,20 @@
     top: 0;
     background-color:rgba(0, 0, 0, 0.5);
     z-index: 5;
+    
 }
 .modall {
     display: none;
+    // overflow: auto;
     padding: 39px 49px;
     width: 497px;
-    // min-height: 571px;
     min-height: 200px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 28px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 51%;
     transform: translate(-50%, -50%);    
     &__close {
         position: absolute;
@@ -115,6 +116,11 @@
         a {
             font-style: 14px;
         }
+    }
+    &__registration {
+        line-height: 19px;
+        text-align: center;
+        cursor: pointer;
     }
 }
 
